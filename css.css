@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: #ff5e5e; /* ela vai falar a cor pra eu botar*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.botaobotao{
+  background-color: #fad6d6;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #57575769;
+}
+.botaobotao:active{
+  background-color: #cdcddf;
+}
